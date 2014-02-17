@@ -1,0 +1,1 @@
+<?phpclass Controller_main_page extends Controller{	public function __construct(){		parent::__construct();	}	public function action_index(){		$this->view->load('view_main.php', 'view_template.php');	}	}?>
