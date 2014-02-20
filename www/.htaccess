@@ -1,5 +1,4 @@
 AddDefaultCharset UTF-8
-RLimitMEM 1024 1024
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
